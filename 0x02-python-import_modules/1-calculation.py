@@ -2,11 +2,7 @@
 
 if __name__ == "__main__":
     """Calculator operation"""
-    import calculator_1 as calc
-    from calc import add 
-    from calc import sub 
-    from calc import mul 
-    from calc import div
+    from calculator_1 import add, sub, mul, div
 
     a = 10
     b = 5
